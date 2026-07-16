@@ -184,13 +184,40 @@ As the repository expands, it will cover topics including:
 
 ---
 
-# 📈 Repository Metrics
+# 📈 Project Dashboard
 
-> This section is automatically maintained using **GitHub Actions**.
+> **This section is automatically updated using GitHub Actions.**
 
 <!-- START_SECTION:repository_metrics -->
 
-*This section is automatically updated.*
+### 📚 Repository Overview
+
+| Metric | Value |
+|:--------|:-----:|
+| Total Solutions | **0** |
+| AtCoder Beginner Contest | **0** |
+| AtCoder Regular Contest | **0** |
+| AtCoder Grand Contest | **0** |
+| Educational DP Contest | **0** |
+
+---
+
+### 🆕 Latest Solution
+
+| Property | Value |
+|:---------|:------|
+| Contest | - |
+| Problem | - |
+| Last Updated | - |
+
+---
+
+### 📌 Repository Status
+
+- **Repository:** Active
+- **Documentation:** 100% Coverage
+- **Automation:** Enabled
+- **Coding Standard:** C++17
 
 <!-- END_SECTION:repository_metrics -->
 
