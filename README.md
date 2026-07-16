@@ -200,25 +200,6 @@ As the repository expands, it will cover topics including:
 | AtCoder Grand Contest | **0** |
 | Educational DP Contest | **0** |
 
----
-
-### 🆕 Latest Solution
-
-| Property | Value |
-|:---------|:------|
-| Contest | - |
-| Problem | - |
-| Last Updated | - |
-
----
-
-### 📌 Repository Status
-
-- **Repository:** Active
-- **Documentation:** 100% Coverage
-- **Automation:** Enabled
-- **Coding Standard:** C++17
-
 <!-- END_SECTION:repository_metrics -->
 
 ---
