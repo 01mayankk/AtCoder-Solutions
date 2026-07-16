@@ -27,7 +27,7 @@ def count_solutions(contest_directory: Path) -> int:
 
     total = 0
 
-    for solution in contest_directory.rglob("solution.cpp"):
+    for solution in contest_directory.rglob("Solution.cpp"):
         total += 1
 
     return total
