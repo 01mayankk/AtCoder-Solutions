@@ -16,10 +16,10 @@ CONTEST_DIRECTORIES = {
 
 def count_solutions(contest_directory: Path) -> int:
     """
-    Counts the number of solved problems inside a contest directory.
+    Counts solved problems inside a contest directory.
 
-    A solution is considered valid if the problem folder contains
-    a solution.cpp file.
+    A problem is considered solved if the problem directory contains
+    at least one C++ source file.
     """
 
     if not contest_directory.exists():
@@ -27,8 +27,17 @@ def count_solutions(contest_directory: Path) -> int:
 
     total = 0
 
-    for solution in contest_directory.rglob("Solution.cpp"):
-        total += 1
+    for problem_directory in contest_directory.rglob("*"):
+        if not problem_directory.is_dir():
+            continue
+
+        has_cpp_file = any(
+            file.is_file() and file.suffix.lower() == ".cpp"
+            for file in problem_directory.iterdir()
+        )
+
+        if has_cpp_file:
+            total += 1
 
     return total
 
