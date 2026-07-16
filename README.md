@@ -194,11 +194,11 @@ As the repository expands, it will cover topics including:
 
 | Metric | Value |
 |:--------|:-----:|
-| Total Solutions | **0** |
+| Total Solutions | **1** |
 | AtCoder Beginner Contest | **0** |
 | AtCoder Regular Contest | **0** |
 | AtCoder Grand Contest | **0** |
-| Educational DP Contest | **0** |
+| Educational DP Contest | **1** |
 
 <!-- END_SECTION:repository_metrics -->
 
